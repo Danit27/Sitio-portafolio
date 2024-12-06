@@ -1,0 +1,367 @@
+.barra {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: #282938;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #282938;
+
+}
+
+.menu a:hover {
+    color: #fff;
+    background-color: #866ee9;
+    border-radius: 4px;
+
+}
+
+.contact-button {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-color: #5E3BEE;
+    border-radius: 20px;
+}
+
+/*Seccion 1*/
+
+.home {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 40px;
+    padding-bottom: 133px;
+    color: #282938;
+    background-color: #F5FCFF;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+.boton {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E3BEE;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+}
+
+.boton:hover {
+    color: #fff;
+    background-color: #866ee9;
+    border-radius: 4px;
+
+}
+
+.inicio {
+    padding: 20px;
+}
+
+.foto1 {
+    height: 400px;
+    width: 1000px;
+    transform: scale(0.8);
+    padding-bottom: 200px;
+
+}
+
+/*Seccion 2- My skills*/
+
+.skills {
+    color: #282938;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 85px;
+    padding-top: 100px;
+}
+
+.titulo2 {
+    font-size: 25px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 85px;
+    padding-top: 100px;
+    padding-bottom: -120px;
+}
+
+.skill-box {
+    padding: 20px;
+    height: 200px;
+    width: 600px;
+    background-color: #F5FCFF;
+    border-radius: 5px;
+}
+
+/*Seccion 3- About me*/
+
+.about {
+    color: #282938;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: -280px;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-left: -760px;
+    width: 500px;
+}
+
+.titulo3 {
+    font-size: 25px;
+}
+
+.foto2 {
+    transform: scale(0.6);
+    margin-left: -120px;
+    margin-top: -120px;
+    margin-bottom: -40px;
+}
+
+/*Seccion 4- Programas*/
+
+.portfolio {
+    color: #282938;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.barrita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-more {
+    background-color: #5E3BEE;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-more:hover {
+    color: #fff;
+    background-color: #866ee9;
+    border-radius: 4px;
+
+}
+
+.titulo4 {
+    font-size: 25px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: -10px;
+    padding-bottom: 10px;
+}
+
+.imagen1 {
+    height: 290px;
+    width: 1000px;
+    transform: scale(0.45);
+    margin-left: -180px;
+}
+
+.text1 {
+    height: 280px;
+    width: 400px;
+    margin-left: 90px;
+}
+
+.imagen2 {
+    height: 320px;
+    width: 10px;
+    transform: scale(0.32);
+    margin-left: -540px;
+    margin-top: -208px;
+}
+
+.text2 {
+    height: 100px;
+    width: 400px;
+    margin-left: -540px;
+}
+
+.imagen3 {
+    height: 320px;
+    width: 10px;
+    transform: scale(0.22);
+    margin-left: -330px;
+    margin-top: -240px;
+}
+
+.text3 {
+    height: 100px;
+    width: 400px;
+    margin-left: -320px;
+}
+
+/*Seccion 5- Hobbies*/
+
+.testimonials {
+    background-color: #F5FCFF;
+    color: #282938;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.titulo5 {
+    font-size: 25px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial-item {
+    border-color: #006B6A;
+}
+
+.imagen4 {
+    transform: scale(0.3);
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+.text4 {
+    width: 280px;
+    margin-left: 90px;
+    margin-top: -270px;
+}
+
+.imagen5 {
+    transform: scale(0.3);
+    margin-left: -700px;
+    margin-top: -200px;
+}
+
+.text5 {
+    width: 290px;
+    margin-left: -280px;
+    margin-top: -270px;
+
+}
+
+.imagen6 {
+    transform: scale(0.7);
+    margin-left: -450px;
+    margin-top: 18px;
+}
+
+.text6 {
+    width: 280px;
+    margin-left: -360px;
+    margin-top: -60px;
+}
+
+/*Seccion 6- Contacto*/
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.contact-box input {
+    border: 2px solid #5E3BEE;
+    padding: 5px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-box textarea {
+    border: 2px solid #5E3BEE;
+    padding: 5px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-container {
+    gap: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+/*Footer*/
+
+.footer-container {
+    background-color: #F5FCFF;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu a:hover {
+    color: #fff;
+    background-color: #866ee9;
+    border-radius: 4px;
+}
+
+.footer-policies {
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-policies a:hover {
+    color: #fff;
+    background-color: #866ee9;
+    border-radius: 4px;
+}
